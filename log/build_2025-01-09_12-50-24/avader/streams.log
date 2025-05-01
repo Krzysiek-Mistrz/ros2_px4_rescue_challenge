@@ -1,0 +1,58 @@
+[0.803s] Invoking command in '/home/developer/ros2_ws/src/avader': PYTHONPATH=/home/developer/ros2_ws/src/build/avader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/avader build --build-base /home/developer/ros2_ws/src/build/avader/build install --record /home/developer/ros2_ws/src/build/avader/install.log --single-version-externally-managed install_data
+[1.108s] running egg_info
+[1.109s] creating ../build/avader/avader.egg-info
+[1.109s] writing ../build/avader/avader.egg-info/PKG-INFO
+[1.109s] writing dependency_links to ../build/avader/avader.egg-info/dependency_links.txt
+[1.109s] writing entry points to ../build/avader/avader.egg-info/entry_points.txt
+[1.110s] writing requirements to ../build/avader/avader.egg-info/requires.txt
+[1.110s] writing top-level names to ../build/avader/avader.egg-info/top_level.txt
+[1.110s] writing manifest file '../build/avader/avader.egg-info/SOURCES.txt'
+[1.112s] reading manifest file '../build/avader/avader.egg-info/SOURCES.txt'
+[1.112s] writing manifest file '../build/avader/avader.egg-info/SOURCES.txt'
+[1.113s] running build
+[1.113s] running build_py
+[1.113s] creating /home/developer/ros2_ws/src/build/avader/build
+[1.113s] creating /home/developer/ros2_ws/src/build/avader/build/lib
+[1.113s] creating /home/developer/ros2_ws/src/build/avader/build/lib/avader
+[1.113s] copying avader/topics.py -> /home/developer/ros2_ws/src/build/avader/build/lib/avader
+[1.113s] copying avader/task_2.py -> /home/developer/ros2_ws/src/build/avader/build/lib/avader
+[1.113s] copying avader/__init__.py -> /home/developer/ros2_ws/src/build/avader/build/lib/avader
+[1.113s] copying avader/camera.py -> /home/developer/ros2_ws/src/build/avader/build/lib/avader
+[1.114s] copying avader/hover_start.py -> /home/developer/ros2_ws/src/build/avader/build/lib/avader
+[1.114s] copying avader/task_3.py -> /home/developer/ros2_ws/src/build/avader/build/lib/avader
+[1.114s] copying avader/task_1.py -> /home/developer/ros2_ws/src/build/avader/build/lib/avader
+[1.114s] running install
+[1.115s] running install_lib
+[1.116s] creating /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader
+[1.116s] copying /home/developer/ros2_ws/src/build/avader/build/lib/avader/topics.py -> /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader
+[1.116s] copying /home/developer/ros2_ws/src/build/avader/build/lib/avader/task_2.py -> /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader
+[1.116s] copying /home/developer/ros2_ws/src/build/avader/build/lib/avader/__init__.py -> /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader
+[1.116s] copying /home/developer/ros2_ws/src/build/avader/build/lib/avader/camera.py -> /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader
+[1.117s] copying /home/developer/ros2_ws/src/build/avader/build/lib/avader/hover_start.py -> /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader
+[1.117s] copying /home/developer/ros2_ws/src/build/avader/build/lib/avader/task_3.py -> /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader
+[1.117s] copying /home/developer/ros2_ws/src/build/avader/build/lib/avader/task_1.py -> /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader
+[1.118s] byte-compiling /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader/topics.py to topics.cpython-310.pyc
+[1.119s] byte-compiling /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader/task_2.py to task_2.cpython-310.pyc
+[1.120s] byte-compiling /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader/__init__.py to __init__.cpython-310.pyc
+[1.120s] byte-compiling /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader/camera.py to camera.cpython-310.pyc
+[1.122s] byte-compiling /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader/hover_start.py to hover_start.cpython-310.pyc
+[1.123s] byte-compiling /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader/task_3.py to task_3.cpython-310.pyc
+[1.124s] byte-compiling /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader/task_1.py to task_1.cpython-310.pyc
+[1.124s] running install_data
+[1.125s] creating /home/developer/ros2_ws/src/install/avader/share/ament_index
+[1.125s] creating /home/developer/ros2_ws/src/install/avader/share/ament_index/resource_index
+[1.125s] creating /home/developer/ros2_ws/src/install/avader/share/ament_index/resource_index/packages
+[1.125s] copying resource/avader -> /home/developer/ros2_ws/src/install/avader/share/ament_index/resource_index/packages
+[1.125s] creating /home/developer/ros2_ws/src/install/avader/share/avader/launch
+[1.125s] copying launch/x500.launch.py -> /home/developer/ros2_ws/src/install/avader/share/avader/launch
+[1.125s] copying package.xml -> /home/developer/ros2_ws/src/install/avader/share/avader
+[1.125s] running install_egg_info
+[1.128s] Copying ../build/avader/avader.egg-info to /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader-0.0.0-py3.10.egg-info
+[1.129s] running install_scripts
+[1.156s] Installing camera script to /home/developer/ros2_ws/src/install/avader/lib/avader
+[1.156s] Installing hover_start script to /home/developer/ros2_ws/src/install/avader/lib/avader
+[1.157s] Installing task_1 script to /home/developer/ros2_ws/src/install/avader/lib/avader
+[1.157s] Installing task_2 script to /home/developer/ros2_ws/src/install/avader/lib/avader
+[1.157s] Installing task_3 script to /home/developer/ros2_ws/src/install/avader/lib/avader
+[1.157s] writing list of installed files to '/home/developer/ros2_ws/src/build/avader/install.log'
+[1.188s] Invoked command in '/home/developer/ros2_ws/src/avader' returned '0': PYTHONPATH=/home/developer/ros2_ws/src/build/avader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/avader build --build-base /home/developer/ros2_ws/src/build/avader/build install --record /home/developer/ros2_ws/src/build/avader/install.log --single-version-externally-managed install_data

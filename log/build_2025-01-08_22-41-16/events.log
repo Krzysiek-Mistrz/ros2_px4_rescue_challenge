@@ -1,0 +1,41 @@
+[0.000000] (-) TimerEvent: {}
+[0.000149] (-) JobUnselected: {'identifier': 'avader'}
+[0.000184] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.000202] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.000218] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000233] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.000250] (solver) JobQueued: {'identifier': 'solver', 'dependencies': OrderedDict()}
+[0.000269] (solver) JobStarted: {'identifier': 'solver'}
+[0.099230] (-) TimerEvent: {}
+[0.199504] (-) TimerEvent: {}
+[0.299794] (-) TimerEvent: {}
+[0.400080] (-) TimerEvent: {}
+[0.499247] (solver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/solver', 'build', '--build-base', '/home/developer/ros2_ws/src/build/solver/build', 'install', '--record', '/home/developer/ros2_ws/src/build/solver/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/developer/ros2_ws/src/solver', 'env': {'HOSTNAME': 'legion5', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/developer/ros2_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/helpers/browser.sh', 'HOME': '/home/developer', 'TERM_PROGRAM_VERSION': '1.96.2', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-4fabbed0-fffe-474f-82f9-d095e8c41030.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/home/developer/ros2_ws/src/install:/home/developer/ros2_ws/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-b7498df0-230e-4ede-88d7-3167e1610856.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'compute,utility,display', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/vscode/vscode-server/bin/linux-x64/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-b7498df0-230e-4ede-88d7-3167e1610856.sock","/home/developer/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-555772dfa7.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-b7498df0-230e-4ede-88d7-3167e1610856.sock', 'AMENT_PREFIX_PATH': '/home/developer/ros2_ws/src/install/solver:/home/developer/ros2_ws/install:/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/developer/ros2_ws/src/build/solver', 'LC_ALL': 'C.UTF-8', 'RCUTILS_COLORIZED_OUTPUT': '1', 'PYTHONPATH': '/home/developer/ros2_ws/src/build/solver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/ros2_ws/src/install/solver/lib/python3.10/site-packages:/home/developer/ros2_ws/src/install/solver/lib/python3.10/site-packages:/home/developer/ros2_ws/build/solver:/home/developer/ros2_ws/install/local/lib/python3.10/dist-packages:/home/developer/ros2_ws/build/avader:/home/developer/ros2_ws/install/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/developer/ros2_ws/install'}, 'shell': False}
+[0.501579] (-) TimerEvent: {}
+[0.601810] (-) TimerEvent: {}
+[0.702105] (-) TimerEvent: {}
+[0.702379] (solver) StdoutLine: {'line': b'running egg_info\n'}
+[0.702875] (solver) StdoutLine: {'line': b'writing ../build/solver/solver.egg-info/PKG-INFO\n'}
+[0.703064] (solver) StdoutLine: {'line': b'writing dependency_links to ../build/solver/solver.egg-info/dependency_links.txt\n'}
+[0.703210] (solver) StdoutLine: {'line': b'writing entry points to ../build/solver/solver.egg-info/entry_points.txt\n'}
+[0.703369] (solver) StdoutLine: {'line': b'writing requirements to ../build/solver/solver.egg-info/requires.txt\n'}
+[0.703466] (solver) StdoutLine: {'line': b'writing top-level names to ../build/solver/solver.egg-info/top_level.txt\n'}
+[0.704564] (solver) StdoutLine: {'line': b"reading manifest file '../build/solver/solver.egg-info/SOURCES.txt'\n"}
+[0.705155] (solver) StdoutLine: {'line': b"writing manifest file '../build/solver/solver.egg-info/SOURCES.txt'\n"}
+[0.705278] (solver) StdoutLine: {'line': b'running build\n'}
+[0.705358] (solver) StdoutLine: {'line': b'running build_py\n'}
+[0.705468] (solver) StdoutLine: {'line': b'copying solver/challenge.py -> /home/developer/ros2_ws/src/build/solver/build/lib/solver\n'}
+[0.705610] (solver) StdoutLine: {'line': b'running install\n'}
+[0.705849] (solver) StdoutLine: {'line': b'running install_lib\n'}
+[0.706362] (solver) StdoutLine: {'line': b'copying /home/developer/ros2_ws/src/build/solver/build/lib/solver/challenge.py -> /home/developer/ros2_ws/src/install/solver/lib/python3.10/site-packages/solver\n'}
+[0.706862] (solver) StdoutLine: {'line': b'byte-compiling /home/developer/ros2_ws/src/install/solver/lib/python3.10/site-packages/solver/challenge.py to challenge.cpython-310.pyc\n'}
+[0.708393] (solver) StdoutLine: {'line': b'running install_data\n'}
+[0.708526] (solver) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.709906] (solver) StdoutLine: {'line': b"removing '/home/developer/ros2_ws/src/install/solver/lib/python3.10/site-packages/solver-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.710237] (solver) StdoutLine: {'line': b'Copying ../build/solver/solver.egg-info to /home/developer/ros2_ws/src/install/solver/lib/python3.10/site-packages/solver-0.0.0-py3.10.egg-info\n'}
+[0.711070] (solver) StdoutLine: {'line': b'running install_scripts\n'}
+[0.728157] (solver) StdoutLine: {'line': b'Installing challenge script to /home/developer/ros2_ws/src/install/solver/lib/solver\n'}
+[0.728420] (solver) StdoutLine: {'line': b"writing list of installed files to '/home/developer/ros2_ws/src/build/solver/install.log'\n"}
+[0.747014] (solver) CommandEnded: {'returncode': 0}
+[0.755352] (solver) JobEnded: {'identifier': 'solver', 'rc': 0}
+[0.755871] (-) EventReactorShutdown: {}

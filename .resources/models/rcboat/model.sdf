@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="rcboat">
+    <static>true</static>
+    <link name="base_link">
+      <collision name="collision">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1.0 1.0 1.0</scale>
+            <uri>model://rcboat/meshes/rcboat.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name= "Propeller_visual">
+        <geometry>
+          <mesh>
+            <uri>model://rcboat/meshes/rcboat.dae</uri>
+            <submesh>
+              <name>Propeller</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://rcboat/materials/textures/Boat_Albedo.png</albedo_map>
+              <normal_map>model://rcboat/materials/textures/Boat_Normal.png</normal_map>
+              <metalness_map>model://rcboat/materials/textures/Boat_Metalness.png</metalness_map>
+              <roughness_map>model://rcboat/materials/textures/Boat_Roughness.png</roughness_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name= "Thruster_visual">
+        <geometry>
+          <mesh>
+            <uri>model://rcboat/meshes/rcboat.dae</uri>
+            <scale>4.0 4.0 4.0</scale>
+
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://rcboat/materials/textures/Boat_Albedo.png</albedo_map>
+              <normal_map>model://rcboat/materials/textures/Boat_Normal.png</normal_map>
+              <metalness_map>model://rcboat/materials/textures/Boat_Metalness.png</metalness_map>
+              <roughness_map>model://rcboat/materials/textures/Boat_Roughness.png</roughness_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name= "Rudder_visual">
+        <geometry>
+          <mesh>
+            <uri>model://rcboat/meshes/rcboat.dae</uri>
+            <submesh>
+              <name>Rudder</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://rcboat/materials/textures/Boat_Albedo.png</albedo_map>
+              <normal_map>model://rcboat/materials/textures/Boat_Normal.png</normal_map>
+              <metalness_map>model://rcboat/materials/textures/Boat_Metalness.png</metalness_map>
+              <roughness_map>model://rcboat/materials/textures/Boat_Roughness.png</roughness_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name= "Boat_visual">
+        <geometry>
+          <mesh>
+            <uri>model://rcboat/meshes/rcboat.dae</uri>
+            <submesh>
+              <name>Boat</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://rcboat/materials/textures/Boat_Albedo.png</albedo_map>
+              <normal_map>model://rcboat/materials/textures/Boat_Normal.png</normal_map>
+              <metalness_map>model://rcboat/materials/textures/Boat_Metalness.png</metalness_map>
+              <roughness_map>model://rcboat/materials/textures/Boat_Roughness.png</roughness_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

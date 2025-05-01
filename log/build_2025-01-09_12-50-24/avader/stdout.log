@@ -1,0 +1,56 @@
+running egg_info
+creating ../build/avader/avader.egg-info
+writing ../build/avader/avader.egg-info/PKG-INFO
+writing dependency_links to ../build/avader/avader.egg-info/dependency_links.txt
+writing entry points to ../build/avader/avader.egg-info/entry_points.txt
+writing requirements to ../build/avader/avader.egg-info/requires.txt
+writing top-level names to ../build/avader/avader.egg-info/top_level.txt
+writing manifest file '../build/avader/avader.egg-info/SOURCES.txt'
+reading manifest file '../build/avader/avader.egg-info/SOURCES.txt'
+writing manifest file '../build/avader/avader.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/developer/ros2_ws/src/build/avader/build
+creating /home/developer/ros2_ws/src/build/avader/build/lib
+creating /home/developer/ros2_ws/src/build/avader/build/lib/avader
+copying avader/topics.py -> /home/developer/ros2_ws/src/build/avader/build/lib/avader
+copying avader/task_2.py -> /home/developer/ros2_ws/src/build/avader/build/lib/avader
+copying avader/__init__.py -> /home/developer/ros2_ws/src/build/avader/build/lib/avader
+copying avader/camera.py -> /home/developer/ros2_ws/src/build/avader/build/lib/avader
+copying avader/hover_start.py -> /home/developer/ros2_ws/src/build/avader/build/lib/avader
+copying avader/task_3.py -> /home/developer/ros2_ws/src/build/avader/build/lib/avader
+copying avader/task_1.py -> /home/developer/ros2_ws/src/build/avader/build/lib/avader
+running install
+running install_lib
+creating /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader
+copying /home/developer/ros2_ws/src/build/avader/build/lib/avader/topics.py -> /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader
+copying /home/developer/ros2_ws/src/build/avader/build/lib/avader/task_2.py -> /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader
+copying /home/developer/ros2_ws/src/build/avader/build/lib/avader/__init__.py -> /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader
+copying /home/developer/ros2_ws/src/build/avader/build/lib/avader/camera.py -> /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader
+copying /home/developer/ros2_ws/src/build/avader/build/lib/avader/hover_start.py -> /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader
+copying /home/developer/ros2_ws/src/build/avader/build/lib/avader/task_3.py -> /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader
+copying /home/developer/ros2_ws/src/build/avader/build/lib/avader/task_1.py -> /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader
+byte-compiling /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader/topics.py to topics.cpython-310.pyc
+byte-compiling /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader/task_2.py to task_2.cpython-310.pyc
+byte-compiling /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader/camera.py to camera.cpython-310.pyc
+byte-compiling /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader/hover_start.py to hover_start.cpython-310.pyc
+byte-compiling /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader/task_3.py to task_3.cpython-310.pyc
+byte-compiling /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader/task_1.py to task_1.cpython-310.pyc
+running install_data
+creating /home/developer/ros2_ws/src/install/avader/share/ament_index
+creating /home/developer/ros2_ws/src/install/avader/share/ament_index/resource_index
+creating /home/developer/ros2_ws/src/install/avader/share/ament_index/resource_index/packages
+copying resource/avader -> /home/developer/ros2_ws/src/install/avader/share/ament_index/resource_index/packages
+creating /home/developer/ros2_ws/src/install/avader/share/avader/launch
+copying launch/x500.launch.py -> /home/developer/ros2_ws/src/install/avader/share/avader/launch
+copying package.xml -> /home/developer/ros2_ws/src/install/avader/share/avader
+running install_egg_info
+Copying ../build/avader/avader.egg-info to /home/developer/ros2_ws/src/install/avader/lib/python3.10/site-packages/avader-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera script to /home/developer/ros2_ws/src/install/avader/lib/avader
+Installing hover_start script to /home/developer/ros2_ws/src/install/avader/lib/avader
+Installing task_1 script to /home/developer/ros2_ws/src/install/avader/lib/avader
+Installing task_2 script to /home/developer/ros2_ws/src/install/avader/lib/avader
+Installing task_3 script to /home/developer/ros2_ws/src/install/avader/lib/avader
+writing list of installed files to '/home/developer/ros2_ws/src/build/avader/install.log'

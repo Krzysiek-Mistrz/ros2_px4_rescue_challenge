@@ -1,0 +1,5 @@
+  File "/home/developer/ros2_ws/src/install/solver/lib/python3.10/site-packages/solver/challenge.py", line 143
+    a_hor = -4.163469105855614, b_hor = 75.2155798055519
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+

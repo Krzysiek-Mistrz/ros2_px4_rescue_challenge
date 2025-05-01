@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.000886] (-) JobUnselected: {'identifier': 'avader'}
+[0.000941] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.000988] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.001016] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.001041] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.001074] (-) JobUnselected: {'identifier': 'solver'}
+[0.001098] (-) EventReactorShutdown: {}

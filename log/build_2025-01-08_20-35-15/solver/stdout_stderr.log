@@ -1,0 +1,37 @@
+running egg_info
+creating ../build/solver/solver.egg-info
+writing ../build/solver/solver.egg-info/PKG-INFO
+writing dependency_links to ../build/solver/solver.egg-info/dependency_links.txt
+writing entry points to ../build/solver/solver.egg-info/entry_points.txt
+writing requirements to ../build/solver/solver.egg-info/requires.txt
+writing top-level names to ../build/solver/solver.egg-info/top_level.txt
+writing manifest file '../build/solver/solver.egg-info/SOURCES.txt'
+reading manifest file '../build/solver/solver.egg-info/SOURCES.txt'
+writing manifest file '../build/solver/solver.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/developer/ros2_ws/src/build/solver/build
+creating /home/developer/ros2_ws/src/build/solver/build/lib
+creating /home/developer/ros2_ws/src/build/solver/build/lib/solver
+copying solver/challenge.py -> /home/developer/ros2_ws/src/build/solver/build/lib/solver
+copying solver/__init__.py -> /home/developer/ros2_ws/src/build/solver/build/lib/solver
+running install
+running install_lib
+creating /home/developer/ros2_ws/src/install/solver/lib/python3.10/site-packages/solver
+copying /home/developer/ros2_ws/src/build/solver/build/lib/solver/challenge.py -> /home/developer/ros2_ws/src/install/solver/lib/python3.10/site-packages/solver
+copying /home/developer/ros2_ws/src/build/solver/build/lib/solver/__init__.py -> /home/developer/ros2_ws/src/install/solver/lib/python3.10/site-packages/solver
+byte-compiling /home/developer/ros2_ws/src/install/solver/lib/python3.10/site-packages/solver/challenge.py to challenge.cpython-310.pyc
+byte-compiling /home/developer/ros2_ws/src/install/solver/lib/python3.10/site-packages/solver/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/developer/ros2_ws/src/install/solver/share/ament_index
+creating /home/developer/ros2_ws/src/install/solver/share/ament_index/resource_index
+creating /home/developer/ros2_ws/src/install/solver/share/ament_index/resource_index/packages
+copying resource/solver -> /home/developer/ros2_ws/src/install/solver/share/ament_index/resource_index/packages
+copying package.xml -> /home/developer/ros2_ws/src/install/solver/share/solver
+creating /home/developer/ros2_ws/src/install/solver/share/solver/launch
+copying launch/tasks_solver.launch.py -> /home/developer/ros2_ws/src/install/solver/share/solver/launch
+running install_egg_info
+Copying ../build/solver/solver.egg-info to /home/developer/ros2_ws/src/install/solver/lib/python3.10/site-packages/solver-0.0.0-py3.10.egg-info
+running install_scripts
+Installing challenge script to /home/developer/ros2_ws/src/install/solver/lib/solver
+writing list of installed files to '/home/developer/ros2_ws/src/build/solver/install.log'

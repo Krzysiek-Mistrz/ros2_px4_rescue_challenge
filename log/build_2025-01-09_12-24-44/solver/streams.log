@@ -1,0 +1,24 @@
+[0.787s] Invoking command in '/home/developer/ros2_ws/src/solver': PYTHONPATH=/home/developer/ros2_ws/src/build/solver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/ros2_ws/src/install/solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/solver build --build-base /home/developer/ros2_ws/src/build/solver/build install --record /home/developer/ros2_ws/src/build/solver/install.log --single-version-externally-managed install_data
+[1.090s] running egg_info
+[1.091s] writing ../build/solver/solver.egg-info/PKG-INFO
+[1.091s] writing dependency_links to ../build/solver/solver.egg-info/dependency_links.txt
+[1.092s] writing entry points to ../build/solver/solver.egg-info/entry_points.txt
+[1.092s] writing requirements to ../build/solver/solver.egg-info/requires.txt
+[1.092s] writing top-level names to ../build/solver/solver.egg-info/top_level.txt
+[1.094s] reading manifest file '../build/solver/solver.egg-info/SOURCES.txt'
+[1.095s] writing manifest file '../build/solver/solver.egg-info/SOURCES.txt'
+[1.095s] running build
+[1.095s] running build_py
+[1.095s] copying solver/challenge.py -> /home/developer/ros2_ws/src/build/solver/build/lib/solver
+[1.095s] running install
+[1.096s] running install_lib
+[1.097s] copying /home/developer/ros2_ws/src/build/solver/build/lib/solver/challenge.py -> /home/developer/ros2_ws/src/install/solver/lib/python3.10/site-packages/solver
+[1.097s] byte-compiling /home/developer/ros2_ws/src/install/solver/lib/python3.10/site-packages/solver/challenge.py to challenge.cpython-310.pyc
+[1.100s] running install_data
+[1.100s] running install_egg_info
+[1.102s] removing '/home/developer/ros2_ws/src/install/solver/lib/python3.10/site-packages/solver-0.0.0-py3.10.egg-info' (and everything under it)
+[1.102s] Copying ../build/solver/solver.egg-info to /home/developer/ros2_ws/src/install/solver/lib/python3.10/site-packages/solver-0.0.0-py3.10.egg-info
+[1.103s] running install_scripts
+[1.130s] Installing challenge script to /home/developer/ros2_ws/src/install/solver/lib/solver
+[1.131s] writing list of installed files to '/home/developer/ros2_ws/src/build/solver/install.log'
+[1.162s] Invoked command in '/home/developer/ros2_ws/src/solver' returned '0': PYTHONPATH=/home/developer/ros2_ws/src/build/solver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/ros2_ws/src/install/solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/solver build --build-base /home/developer/ros2_ws/src/build/solver/build install --record /home/developer/ros2_ws/src/build/solver/install.log --single-version-externally-managed install_data
