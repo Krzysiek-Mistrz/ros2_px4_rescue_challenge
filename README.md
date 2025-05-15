@@ -1,6 +1,20 @@
-# ORIGINAL INSTRUCTION:
+# ROS2 PX4 Rescue Challenge
 
 ![Drone over lake image](/images/uav_lake.jpeg)
+
+## Project Overview
+
+This project implements an autonomous UAV mission for the Lake Rescue Challenge using ROS 2 and PX4. The solution uses computer vision to detect people in a simulated environment and reports their locations.
+
+### Key Components
+- **avader/**: Challenge framework providing scoring and simulation environment
+- **solver/**: Our implementation for detection, navigation, and reporting
+
+### Main Functions in `challenge.py`
+- **Initialization**: Sets up publishers, subscribers, and mission parameters
+- **Mission Control**: Handles mission start, trajectory planning, and navigation
+- **Object Detection**: Processes camera feed to identify and locate people
+- **Reporting**: Publishes detected people count and their precise locations
 
 ## About the Challenge
 
